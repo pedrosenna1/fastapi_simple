@@ -8,7 +8,7 @@ Crie um script  e coloque isto:
 ```python
 import secrets
 
-print(secrets.token_hex())
+print(secrets.token_hex(32))
 ```
 
 **copie o secret gerado**
