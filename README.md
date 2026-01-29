@@ -5,9 +5,11 @@ Gerando secret para o JWT:
 
 Crie um script  e coloque isto:
 
+```python
 import secrets
 
 print(secrets.token_hex())
+```
 
 **copie o secret gerado**
 
